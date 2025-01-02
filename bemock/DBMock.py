@@ -13,7 +13,7 @@ class MembershipType(int, Enum):
 
 class Currency(int, Enum):
     EURO = 0
-    DOLLAR = 1
+    USD = 1
     RON = 3
 
 class PaymentMethod(int, Enum):
